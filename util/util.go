@@ -94,7 +94,7 @@ func HandleJsonResponseNew(jsonStr string, v interface{}) (err error) {
 		return err
 	}
 	var res map[string]interface{}
-	_ = json.Unmarshal([]byte(jsonStr), v)
+	_ = json.Unmarshal([]byte(jsonStr), &res)
 	if itemId, ok := res["item_id"]; ok {
 		if reflect.TypeOf(itemId).Name() == "int64" {
 			res["item_id"] = fmt.Sprintf("%d", itemId)
