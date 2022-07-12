@@ -1,7 +1,7 @@
 package response
 
 import (
-	"github.com/liu8534584/topsdk/ability411/domain"
+	"github.com/Anpengpeng/topsdk/ability411/domain"
 )
 
 type TaobaoTbkScOrderDetailsGetResponse struct {

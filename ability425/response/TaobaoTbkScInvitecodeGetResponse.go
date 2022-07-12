@@ -1,7 +1,7 @@
 package response
 
 import (
-	"github.com/liu8534584/topsdk/ability425/domain"
+	"github.com/Anpengpeng/topsdk/ability425/domain"
 )
 
 type TaobaoTbkScInvitecodeGetResponse struct {

@@ -1,8 +1,8 @@
 package request
 
 import (
-	"github.com/liu8534584/topsdk/ability370/domain"
-	"github.com/liu8534584/topsdk/util"
+	"github.com/Anpengpeng/topsdk/ability370/domain"
+	"github.com/Anpengpeng/topsdk/util"
 )
 
 type TaobaoTbkDgMaterialOptionalRequest struct {

@@ -1,7 +1,7 @@
 package response
 
 import (
-	"github.com/liu8534584/topsdk/ability2475/domain"
+	"github.com/Anpengpeng/topsdk/ability2475/domain"
 )
 
 type TaobaoTbkScVegasSendReportResponse struct {

@@ -2,10 +2,10 @@ package ability371
 
 import (
 	"errors"
-	"github.com/liu8534584/topsdk"
-	"github.com/liu8534584/topsdk/ability371/request"
-	"github.com/liu8534584/topsdk/ability371/response"
-	"github.com/liu8534584/topsdk/util"
+	"github.com/Anpengpeng/topsdk"
+	"github.com/Anpengpeng/topsdk/ability371/request"
+	"github.com/Anpengpeng/topsdk/ability371/response"
+	"github.com/Anpengpeng/topsdk/util"
 	"log"
 )
 

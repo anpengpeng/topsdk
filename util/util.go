@@ -6,6 +6,7 @@ import (
 	"encoding/hex"
 	"encoding/json"
 	"fmt"
+	"reflect"
 	"sort"
 	"strings"
 	"time"
@@ -40,12 +41,12 @@ func (t LocalTime) String() string {
 	return time.Time(t).Format(TimeFormat)
 }
 
-func UnmarshalJSON(data []byte,v interface{})(err error){
+func UnmarshalJSON(data []byte, v interface{}) (err error) {
 	return json.Unmarshal(data, v)
 }
 
 func ConvertStructList(data interface{}) string {
-	if(data == nil) {
+	if data == nil {
 		return "[]"
 	}
 	jsonStr, _ := json.Marshal(data)
@@ -53,7 +54,7 @@ func ConvertStructList(data interface{}) string {
 }
 
 func ConvertStruct(data interface{}) string {
-	if(data == nil) {
+	if data == nil {
 		return "{}"
 	}
 	jsonStr, _ := json.Marshal(data)
@@ -61,17 +62,17 @@ func ConvertStruct(data interface{}) string {
 }
 
 func ConvertBasicList(data interface{}) string {
-	if(data == nil) {
+	if data == nil {
 		return "[]"
 	}
 	return strings.Replace(strings.Trim(fmt.Sprint(data), "[]"), " ", ",", -1)
 }
 
-func HandleJsonResponse(jsonStr string,v interface{})(err error) {
+func HandleJsonResponse(jsonStr string, v interface{}) (err error) {
 
-	if(strings.Contains(jsonStr[0:20],"error_response")){
+	if strings.Contains(jsonStr[0:20], "error_response") {
 		err := &TopApiRequestError{}
-		jsonStr = jsonStr[18:len(jsonStr)-1]
+		jsonStr = jsonStr[18 : len(jsonStr)-1]
 		err2 := json.Unmarshal([]byte(jsonStr), err)
 		if err2 != nil {
 			return err2
@@ -81,12 +82,40 @@ func HandleJsonResponse(jsonStr string,v interface{})(err error) {
 	return json.Unmarshal([]byte(jsonStr), v)
 }
 
-func GetSign(publicParam map[string]interface{},data map[string]interface{},secret string) string {
+func HandleJsonResponseNew(jsonStr string, v interface{}) (err error) {
+
+	if strings.Contains(jsonStr[0:20], "error_response") {
+		err := &TopApiRequestError{}
+		jsonStr = jsonStr[18 : len(jsonStr)-1]
+		err2 := json.Unmarshal([]byte(jsonStr), err)
+		if err2 != nil {
+			return err2
+		}
+		return err
+	}
+	var res map[string]interface{}
+	_ = json.Unmarshal([]byte(jsonStr), v)
+	if itemId, ok := res["item_id"]; ok {
+		if reflect.TypeOf(itemId).Name() == "int64" {
+			res["item_id"] = fmt.Sprintf("%d", itemId)
+		}
+	}
+	if itemId, ok := res["num_iid"]; ok {
+		if reflect.TypeOf(itemId).Name() == "int64" {
+			res["num_iid"] = fmt.Sprintf("%d", itemId)
+		}
+	}
+	newJsonStr, _ := json.Marshal(res)
+
+	return json.Unmarshal(newJsonStr, v)
+}
+
+func GetSign(publicParam map[string]interface{}, data map[string]interface{}, secret string) string {
 	var allParamMap = make(map[string]interface{})
-	for k,v := range data {
+	for k, v := range data {
 		allParamMap[k] = v
 	}
-	for k,v := range publicParam {
+	for k, v := range publicParam {
 		allParamMap[k] = v
 	}
 	var keyList []string
@@ -95,7 +124,7 @@ func GetSign(publicParam map[string]interface{},data map[string]interface{},secr
 	}
 	sort.Strings(keyList)
 	var signStr = ""
-	for _ , key := range keyList {
+	for _, key := range keyList {
 		value := allParamMap[key]
 		signStr = signStr + fmt.Sprintf("%v%v", key, value)
 		//if(value != ""){
@@ -103,7 +132,7 @@ func GetSign(publicParam map[string]interface{},data map[string]interface{},secr
 		//}
 	}
 	fmt.Println(signStr)
-	sign := strings.ToUpper(hmacSha256(signStr,secret))
+	sign := strings.ToUpper(hmacSha256(signStr, secret))
 	return sign
 }
 

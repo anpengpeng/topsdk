@@ -1,7 +1,7 @@
 package response
 
 import (
-	"github.com/liu8534584/topsdk/ability1269/domain"
+	"github.com/Anpengpeng/topsdk/ability1269/domain"
 )
 
 type TaobaoTbkPrivilegeGetResponse struct {

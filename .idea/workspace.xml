@@ -4,7 +4,62 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="168ffc9d-3be4-44b6-80ec-f3338f51cadd" name="Changes" comment="" />
+    <list default="true" id="168ffc9d-3be4-44b6-80ec-f3338f51cadd" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ability1269/Ability1269.go" beforeDir="false" afterPath="$PROJECT_DIR$/ability1269/Ability1269.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ability1269/domain/TaobaoTbkPrivilegeGetMaterialDto.go" beforeDir="false" afterPath="$PROJECT_DIR$/ability1269/domain/TaobaoTbkPrivilegeGetMaterialDto.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ability1269/request/TaobaoTbkPrivilegeGetRequest.go" beforeDir="false" afterPath="$PROJECT_DIR$/ability1269/request/TaobaoTbkPrivilegeGetRequest.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ability1269/response/TaobaoTbkPrivilegeGetResponse.go" beforeDir="false" afterPath="$PROJECT_DIR$/ability1269/response/TaobaoTbkPrivilegeGetResponse.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ability1556/Ability1556.go" beforeDir="false" afterPath="$PROJECT_DIR$/ability1556/Ability1556.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ability1556/domain/TaobaoTbkScMaterialOptionalMapData.go" beforeDir="false" afterPath="$PROJECT_DIR$/ability1556/domain/TaobaoTbkScMaterialOptionalMapData.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ability1556/request/TaobaoTbkScMaterialOptionalRequest.go" beforeDir="false" afterPath="$PROJECT_DIR$/ability1556/request/TaobaoTbkScMaterialOptionalRequest.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ability1556/response/TaobaoTbkScMaterialOptionalResponse.go" beforeDir="false" afterPath="$PROJECT_DIR$/ability1556/response/TaobaoTbkScMaterialOptionalResponse.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ability2032/Ability2032.go" beforeDir="false" afterPath="$PROJECT_DIR$/ability2032/Ability2032.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ability2032/domain/TaobaoTbkScPunishOrderGetTopApiAfOrderOption.go" beforeDir="false" afterPath="$PROJECT_DIR$/ability2032/domain/TaobaoTbkScPunishOrderGetTopApiAfOrderOption.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ability2032/request/TaobaoTbkScPunishOrderGetRequest.go" beforeDir="false" afterPath="$PROJECT_DIR$/ability2032/request/TaobaoTbkScPunishOrderGetRequest.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ability2032/response/TaobaoTbkScPunishOrderGetResponse.go" beforeDir="false" afterPath="$PROJECT_DIR$/ability2032/response/TaobaoTbkScPunishOrderGetResponse.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ability2153/Ability2153.go" beforeDir="false" afterPath="$PROJECT_DIR$/ability2153/Ability2153.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ability2153/response/TaobaoTbkScOptimusMaterialResponse.go" beforeDir="false" afterPath="$PROJECT_DIR$/ability2153/response/TaobaoTbkScOptimusMaterialResponse.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ability2153/response/TaobaoTbkScOptimusPromotionResponse.go" beforeDir="false" afterPath="$PROJECT_DIR$/ability2153/response/TaobaoTbkScOptimusPromotionResponse.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ability2475/Ability2475.go" beforeDir="false" afterPath="$PROJECT_DIR$/ability2475/Ability2475.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ability2475/response/TaobaoTbkScVegasSendReportResponse.go" beforeDir="false" afterPath="$PROJECT_DIR$/ability2475/response/TaobaoTbkScVegasSendReportResponse.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ability2553/Ability2553.go" beforeDir="false" afterPath="$PROJECT_DIR$/ability2553/Ability2553.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ability2553/response/TaobaoTbkScActivityInfoGetResponse.go" beforeDir="false" afterPath="$PROJECT_DIR$/ability2553/response/TaobaoTbkScActivityInfoGetResponse.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ability304/Ability304.go" beforeDir="false" afterPath="$PROJECT_DIR$/ability304/Ability304.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ability304/domain/TaobaoFilesGetTopDownloadRecordDo.go" beforeDir="false" afterPath="$PROJECT_DIR$/ability304/domain/TaobaoFilesGetTopDownloadRecordDo.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ability304/request/TaobaoFilesGetRequest.go" beforeDir="false" afterPath="$PROJECT_DIR$/ability304/request/TaobaoFilesGetRequest.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ability304/response/TaobaoFilesGetResponse.go" beforeDir="false" afterPath="$PROJECT_DIR$/ability304/response/TaobaoFilesGetResponse.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ability370/Ability370.go" beforeDir="false" afterPath="$PROJECT_DIR$/ability370/Ability370.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ability370/domain/TaobaoTbkDgMaterialOptionalMapData.go" beforeDir="false" afterPath="$PROJECT_DIR$/ability370/domain/TaobaoTbkDgMaterialOptionalMapData.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ability370/request/TaobaoTbkDgMaterialOptionalRequest.go" beforeDir="false" afterPath="$PROJECT_DIR$/ability370/request/TaobaoTbkDgMaterialOptionalRequest.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ability370/response/TaobaoTbkDgMaterialOptionalResponse.go" beforeDir="false" afterPath="$PROJECT_DIR$/ability370/response/TaobaoTbkDgMaterialOptionalResponse.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ability371/Ability371.go" beforeDir="false" afterPath="$PROJECT_DIR$/ability371/Ability371.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ability371/domain/TaobaoTbkItemInfoGetNTbkItem.go" beforeDir="false" afterPath="$PROJECT_DIR$/ability371/domain/TaobaoTbkItemInfoGetNTbkItem.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ability371/request/TaobaoTbkCouponGetRequest.go" beforeDir="false" afterPath="$PROJECT_DIR$/ability371/request/TaobaoTbkCouponGetRequest.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ability371/response/TaobaoTbkCouponGetResponse.go" beforeDir="false" afterPath="$PROJECT_DIR$/ability371/response/TaobaoTbkCouponGetResponse.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ability371/response/TaobaoTbkItemInfoGetResponse.go" beforeDir="false" afterPath="$PROJECT_DIR$/ability371/response/TaobaoTbkItemInfoGetResponse.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ability375/Ability375.go" beforeDir="false" afterPath="$PROJECT_DIR$/ability375/Ability375.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ability375/response/TaobaoTbkTpwdCreateResponse.go" beforeDir="false" afterPath="$PROJECT_DIR$/ability375/response/TaobaoTbkTpwdCreateResponse.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ability376/Ability376.go" beforeDir="false" afterPath="$PROJECT_DIR$/ability376/Ability376.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ability376/request/TaobaoTbkSpreadGetRequest.go" beforeDir="false" afterPath="$PROJECT_DIR$/ability376/request/TaobaoTbkSpreadGetRequest.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ability376/response/TaobaoTbkSpreadGetResponse.go" beforeDir="false" afterPath="$PROJECT_DIR$/ability376/response/TaobaoTbkSpreadGetResponse.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ability407/Ability407.go" beforeDir="false" afterPath="$PROJECT_DIR$/ability407/Ability407.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ability407/response/TaobaoTbkScTpwdConvertResponse.go" beforeDir="false" afterPath="$PROJECT_DIR$/ability407/response/TaobaoTbkScTpwdConvertResponse.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ability411/Ability411.go" beforeDir="false" afterPath="$PROJECT_DIR$/ability411/Ability411.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ability411/domain/TaobaoTbkScRelationRefundResult.go" beforeDir="false" afterPath="$PROJECT_DIR$/ability411/domain/TaobaoTbkScRelationRefundResult.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ability411/domain/TaobaoTbkScRelationRefundTopApiRefundRptOption.go" beforeDir="false" afterPath="$PROJECT_DIR$/ability411/domain/TaobaoTbkScRelationRefundTopApiRefundRptOption.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ability411/request/TaobaoTbkScRelationRefundRequest.go" beforeDir="false" afterPath="$PROJECT_DIR$/ability411/request/TaobaoTbkScRelationRefundRequest.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ability411/response/TaobaoTbkScOrderDetailsGetResponse.go" beforeDir="false" afterPath="$PROJECT_DIR$/ability411/response/TaobaoTbkScOrderDetailsGetResponse.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ability411/response/TaobaoTbkScRelationRefundResponse.go" beforeDir="false" afterPath="$PROJECT_DIR$/ability411/response/TaobaoTbkScRelationRefundResponse.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ability425/Ability425.go" beforeDir="false" afterPath="$PROJECT_DIR$/ability425/Ability425.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ability425/domain/TaobaoTbkScPublisherInfoGetMapData.go" beforeDir="false" afterPath="$PROJECT_DIR$/ability425/domain/TaobaoTbkScPublisherInfoGetMapData.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ability425/response/TaobaoTbkScInvitecodeGetResponse.go" beforeDir="false" afterPath="$PROJECT_DIR$/ability425/response/TaobaoTbkScInvitecodeGetResponse.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ability425/response/TaobaoTbkScPublisherInfoGetResponse.go" beforeDir="false" afterPath="$PROJECT_DIR$/ability425/response/TaobaoTbkScPublisherInfoGetResponse.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ability425/response/TaobaoTbkScPublisherInfoSaveResponse.go" beforeDir="false" afterPath="$PROJECT_DIR$/ability425/response/TaobaoTbkScPublisherInfoSaveResponse.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/topclient.go" beforeDir="false" afterPath="$PROJECT_DIR$/topclient.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/util.go" beforeDir="false" afterPath="$PROJECT_DIR$/util/util.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,7 +92,7 @@
     <property name="go.modules.go.list.on.any.changes.was.set" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.watchers.conflict.with.on.save.actions.check.performed" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ability371/request" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">

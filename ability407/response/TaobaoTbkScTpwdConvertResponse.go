@@ -1,7 +1,7 @@
 package response
 
 import (
-	"github.com/liu8534584/topsdk/ability407/domain"
+	"github.com/Anpengpeng/topsdk/ability407/domain"
 )
 
 type TaobaoTbkScTpwdConvertResponse struct {

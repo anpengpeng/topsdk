@@ -1,8 +1,8 @@
 package request
 
 import (
-	"github.com/liu8534584/topsdk/ability376/domain"
-	"github.com/liu8534584/topsdk/util"
+	"github.com/Anpengpeng/topsdk/ability376/domain"
+	"github.com/Anpengpeng/topsdk/util"
 )
 
 type TaobaoTbkSpreadGetRequest struct {

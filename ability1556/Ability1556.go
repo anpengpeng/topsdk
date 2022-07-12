@@ -2,10 +2,10 @@ package ability1556
 
 import (
 	"errors"
-	"github.com/liu8534584/topsdk"
-	"github.com/liu8534584/topsdk/ability1556/request"
-	"github.com/liu8534584/topsdk/ability1556/response"
-	"github.com/liu8534584/topsdk/util"
+	"github.com/Anpengpeng/topsdk"
+	"github.com/Anpengpeng/topsdk/ability1556/request"
+	"github.com/Anpengpeng/topsdk/ability1556/response"
+	"github.com/Anpengpeng/topsdk/util"
 	"log"
 )
 
