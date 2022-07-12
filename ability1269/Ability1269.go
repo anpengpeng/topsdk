@@ -30,7 +30,7 @@ func (ability *Ability1269) TaobaoTbkPrivilegeGet(req *request.TaobaoTbkPrivileg
 		log.Fatal("taobaoTbkPrivilegeGet error", err)
 		return &respStruct, err
 	}
-	err = util.HandleJsonResponse(jsonStr, &respStruct)
+	err = util.HandleJsonResponseNew(jsonStr, &respStruct)
 	if respStruct.Body == "" || len(respStruct.Body) == 0 {
 		respStruct.Body = jsonStr
 	}

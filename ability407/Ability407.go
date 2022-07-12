@@ -30,7 +30,7 @@ func (ability *Ability407) TaobaoTbkScTpwdConvert(req *request.TaobaoTbkScTpwdCo
 		log.Fatal("taobaoTbkScTpwdConvert error", err)
 		return &respStruct, err
 	}
-	err = util.HandleJsonResponse(jsonStr, &respStruct)
+	err = util.HandleJsonResponseNew(jsonStr, &respStruct)
 	if respStruct.Body == "" || len(respStruct.Body) == 0 {
 		respStruct.Body = jsonStr
 	}

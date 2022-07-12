@@ -50,7 +50,7 @@ func (ability *Ability2153) TaobaoTbkScOptimusMaterial(req *request.TaobaoTbkScO
 		log.Fatal("taobaoTbkScOptimusMaterial error", err)
 		return &respStruct, err
 	}
-	err = util.HandleJsonResponse(jsonStr, &respStruct)
+	err = util.HandleJsonResponseNew(jsonStr, &respStruct)
 	if respStruct.Body == "" || len(respStruct.Body) == 0 {
 		respStruct.Body = jsonStr
 	}

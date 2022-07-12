@@ -30,7 +30,7 @@ func (ability *Ability375) TaobaoTbkTpwdCreate(req *request.TaobaoTbkTpwdCreateR
 		log.Fatal("taobaoTbkTpwdCreate error", err)
 		return &respStruct, err
 	}
-	err = util.HandleJsonResponse(jsonStr, &respStruct)
+	err = util.HandleJsonResponseNew(jsonStr, &respStruct)
 	if respStruct.Body == "" || len(respStruct.Body) == 0 {
 		respStruct.Body = jsonStr
 	}
