@@ -62,8 +62,14 @@ func (ability *Ability370) HandleJsonResponseNew(jsonStr string, v interface{}) 
 					var newMap = make(map[string]interface{})
 					for key, value := range value.(map[string]interface{}) {
 						s := reflect.TypeOf(value).Kind().String()
-						if (key == "item_id" || key == "num_iid") && (s == "int64" || s == "float64") {
-							newMap[key] = fmt.Sprintf("%d", value)
+						if key == "item_id" || key == "num_iid" {
+							if s == "int64" {
+								newMap[key] = fmt.Sprintf("%d", value)
+							} else if s == "float64" {
+								newMap[key] = fmt.Sprintf("%f", value)
+							} else {
+								newMap[key] = value
+							}
 						} else {
 							newMap[key] = value
 						}
@@ -78,8 +84,14 @@ func (ability *Ability370) HandleJsonResponseNew(jsonStr string, v interface{}) 
 			var m = make(map[string]interface{})
 			for key, value := range v.(map[string]interface{}) {
 				s := reflect.TypeOf(value).Kind().String()
-				if (key == "item_id" || key == "num_iid") && (s == "int64" || s == "float64") {
-					m[key] = fmt.Sprintf("%d", value)
+				if key == "item_id" || key == "num_iid" {
+					if s == "int64" {
+						m[key] = fmt.Sprintf("%d", value)
+					} else if s == "float64" {
+						m[key] = fmt.Sprintf("%f", value)
+					} else {
+						m[key] = value
+					}
 				} else {
 					m[key] = value
 				}
