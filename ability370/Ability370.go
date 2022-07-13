@@ -60,7 +60,7 @@ func (ability *Ability370) HandleJsonResponseNew(jsonStr string, v interface{}) 
 			for _, value := range v.([]interface{}) {
 				if reflect.TypeOf(value).Kind().String() == "map" {
 					var newMap = make(map[string]interface{})
-					for key, value := range v.(map[string]interface{}) {
+					for key, value := range value.(map[string]interface{}) {
 						s := reflect.TypeOf(value).Kind().String()
 						if (key == "item_id" || key == "num_iid") && (s == "int64" || s == "float64") {
 							newMap[key] = fmt.Sprintf("%d", value)
